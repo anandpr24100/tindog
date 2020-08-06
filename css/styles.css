@@ -1,0 +1,161 @@
+#title{
+    background-color: #ff4c68;
+    color: white;
+    padding-bottom: 120px;
+    
+}
+
+body{
+    font-family: "Montserrat";
+    
+}
+
+h1{
+    font-size: 3.5rem;
+}
+
+h2{
+    line-height: 3.5rem;
+    font-size: 2.5rem;
+}
+
+.container-fluid{
+    padding:3% 15%;
+}
+/* navigation-bar */
+
+.navbar{
+    padding: 0 0 4.5rem 0;
+    
+}
+
+.nav-item{
+    padding: 0 18px;
+}
+
+.nav-link{
+    font-size: 1.2rem;
+    font-family: "Ubuntu";
+}
+
+.navbar-brand{
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+/* Download-button*/
+.download-button{
+    margin:5% 3% 0% 3% ;
+}
+/* titelimage */
+#title-image{
+    width:60%;
+    transform:rotate(30deg);
+    position:absolute;
+    left:170px;
+    z-index: 1;
+    
+}
+
+@media only screen and (max-width: 980px){
+#title-image{
+    position:static;
+    padding-top: 80px;
+    transform: none;
+}
+}
+
+/* middle-section */
+
+#features{
+    background-color:white;
+    position: relative;
+    z-index: 2;
+    
+    
+}
+.mid-elements{
+    text-align: center;
+    margin:4% 0 4% 0;
+    padding:0 5%;
+}
+
+p{
+    font-family: "Ubuntu";
+    font-weight: 200;
+    columns: #8f8f8f;
+}
+h3{
+    font-family: "Montserrat";
+    font-size: 1.5rem;
+}
+
+.mid-icons{
+    color: #f38d65;
+    font-size: 450%;
+    margin-bottom: 4%;
+}
+.mid-icons:hover{
+    color:#ff4c68;
+   
+}
+
+#testimonials{
+    background-color:#f38d65 ;
+    text-align: center;
+    color:white;
+    
+}
+
+.carousel-item{
+
+    padding:7% 15%;
+}
+
+.testimonial-image{
+
+    border-radius: 50%;
+    width:100px
+}
+
+#press{
+    background-color:#f38d65 ;
+    text-align: center;
+    padding-bottom: 7%;
+}
+
+/* pricing */
+
+#pricing{
+    text-align: center;
+    padding:100px;
+}
+
+.pricing-column{
+    padding:3% 2%;
+}
+
+/* bottom section */
+ #cta{
+     text-align: center;
+     background-color: #ff4c68;
+     color: white;
+     padding: 80px 50px 100px;
+     
+ }
+
+ h4{
+     font-size: 4.5rem;
+ }
+ 
+ /* footer */
+  #footer{
+      text-align: center;
+      height:100px;
+      padding-top: 50px;
+  }
+ .ficon{
+    font-size: 200%;
+     margin:25px;
+ }
